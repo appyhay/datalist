@@ -1,0 +1,44 @@
+{
+    "name": "appyhay/datalist",
+    "description": "Datalist entry field.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "datalist"
+    ],
+    "support": {
+        "docs": "https://github.com/appyhay/datalist",
+        "issues": "https://github.com/appyhay/datalist"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Fuller",
+            "homepage": "https://github.com/appyhay"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0.2",
+        "craftcms/cms": "^4.0.0-alpha.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "appyhay\\datalist\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Datalist",
+        "handle": "datalist",
+        "developer": "John Fuller",
+        "developerUrl": "https://appyhay.com",
+        "documentationUrl": "https://github.com/appyhay/datalist",
+        "changelogUrl": "https://github.com/appyhay/datalist",
+        "class": "appyhay\\datalist\\Datalist"
+    }
+}
