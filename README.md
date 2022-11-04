@@ -22,7 +22,7 @@ This plugin has been published to Packagist. You can install the plugin as you w
 
 2. Enter the following commnd.
 
-```composer require package/name```
+```composer require appyhay/datalist```
 
 3. Go to the plugins section of your control panel and enable Datalist.
 
