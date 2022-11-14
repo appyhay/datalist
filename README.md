@@ -8,9 +8,25 @@ This plugin requires Craft CMS 4 or later.
 
 ## Installation
 
-To install the plugin, follow these instructions.
+To install the plugin, you can use any of the following methods.
 
-This plugin is currently not available in the Craft Plugin Store. You will have to install the plugin manually.
+### Plugin Store
+
+The easiest method is to install the plugin through the Plugin Store. Search for Datalist an install just like any other plugin.
+
+### From Packagist
+
+This plugin has been published to Packagist. You can install the plugin as you would any other PHP package using Composer.
+
+1. In a terminal, change into the directory which contains your Craft app files.
+
+2. Enter the following commnd.
+
+```composer require appyhay/datalist```
+
+3. Go to the plugins section of your control panel and enable Datalist.
+
+### Manual install
 
 1. Create a plugins directory and place it anywhere you like. This example will assume the folder is created at the same level as the Craft installation. Place the datalist directory inside the plugins directory.
 
